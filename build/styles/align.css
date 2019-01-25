@@ -1,0 +1,14 @@
+.ta-t {text-align: center;}
+
+.ta-r {text-align: right;}
+
+.ta-l {text-align: left;}
+
+.ta-j {
+  text-align: justify;
+  text-align-last: justify;
+}
+/* vertical-align */
+.v-t{vertical-align:top;}
+.v-b{vertical-align:bottom;}
+.v-m{vertical-align:middle;}

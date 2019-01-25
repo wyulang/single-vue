@@ -1,0 +1,111 @@
+.red{color: red;}
+.c-333{color: #333;}
+.c-444{color: #444;}
+.c-555{color: #555;}
+.c-666{color: #666;}
+.c-777{color: #777;}
+.c-888{color: #888;}
+.c-999{color: #999;}
+.c-aaa{color: #aaa;}
+.c-bbb{color: #bbb;}
+.c-ccc{color: #ccc;}
+.c-ddd{color: #ddd;}
+.c-eee{color: #eee;}
+.c-fff{color: #fff;}
+
+
+.fc-primary {color: #409eff;}
+.fc-success {color: #67c23a;}
+.fc-fdde51 {color: #FDDE51;}
+.fc-warning {color: #eb9e05;}
+.fc-danger {color: #fa5555;}
+.fc-19c3a8 {color: #19c3a8;}
+.fc-info {color: #878d99;}
+.fc-30 {color: #303030;}
+.fc-01 {color: #010101;}
+.fc-1e83d3 {color: #1e83d3;}
+.fc-adaaa7 {color: #adaaa7;}
+.fc-fe5f4b {color: #fe5f4b;}
+.fc-c4578e {color: #C4578E;}
+.fc-FB8B52 {color: #FB8B52;}
+.fc-4f627b {color: #4f627b;}
+.fc-ff4343 {color: #ff4343;}
+.fc-ff0036 {color: #ff0036;}
+.fc-b2 {color: #b2b2b2;}
+.fc-7f {color: #7f7f7f;}
+
+.fs-12 {font-size:12px;}
+.fs-13 {font-size: 13px;}
+.fs-14 {font-size: 14px;}
+.fs-15 {font-size: 15px;}
+.fs-16 {font-size: 16px;}
+.fs-17 {font-size: 17px;}
+.fs-18 {font-size: 18px;}
+.fs-19 {font-size: 19px;}
+.fs-20 {font-size: 20px;}
+.fs-21 {font-size: 21px;}
+.fs-22 {font-size: 22px;}
+.fs-23 {font-size: 23px;}
+.fs-24 {font-size: 24px;}
+.fs-25 {font-size: 25px;}
+.fs-26 {font-size: 26px;}
+.fs-27 {font-size: 27px;}
+.fs-28 {font-size: 28px;}
+.fs-29 {font-size: 29px;}
+.fs-30 {font-size: 30px;}
+.fs-31 {font-size: 31px;}
+.fs-32 {font-size: 32px;}
+.fs-33 {font-size: 33px;}
+.fs-34 {font-size:34px;}
+.fs-35 {font-size: 35px;}
+.fs-36 {font-size: 36px;}
+.fs-37 {font-size:37px;}
+.fs-38 {font-size: 38px;}
+.fs-39 {font-size: 39px;}
+.fs-40 {font-size: 40px;}
+.fs-41 {font-size: 41px;}
+.fs-42 {font-size: 42px;}
+
+/* 字体加粗 */
+.fb{
+  font-weight: bold;
+}
+.fb-100{
+  font-weight: 100;
+}
+.fb-200{
+  font-weight: 200;
+}
+.fb-300{
+  font-weight: 300;
+}
+.fb-400{
+  font-weight: 400;
+}
+.fb-500{
+  font-weight: 500;
+}
+.fb-600{
+  font-weight: 600;
+}
+
+/* 清除字体样式 */
+.ff-no{
+  font-style:normal;
+  text-decoration:none
+}
+
+/* 下划线样式 */
+.ff-b{
+  text-decoration:underline ;
+}
+/* 删除线样式 */
+.ff-del{
+  text-decoration:line-through
+}
+/* 上划线样式 */
+.ff-t{
+  text-decoration:overline
+}
+
+
