@@ -1,0 +1,70 @@
+@charset"UTF-8";
+body, html {
+  min-width:1200px;
+  font-family:'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1', Arial, 'Hiragino Sans GB', '\5B8B\4F53';
+  margin:0;
+  padding:0;
+  font-size:12px;
+  color:#5e5e5e;
+  -webkit-font-smoothing:antialiased;
+  min-height: 100%;
+}
+button, dd, div, dl, dt, form, img, input, li, ol, p, td, th, ul {
+  margin:0;
+  padding:0;
+  border:0
+}
+li {
+  list-style-type:none
+}
+img {
+  vertical-align:top
+}
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  font-size:14px;
+  font-weight:500
+}
+input {
+  font-size:12px;
+  vertical-align:middle;
+  color:#333;
+  outline:0
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0
+}
+a {
+  cursor:pointer;
+  outline:0
+}
+a:hover, a:link, a:visited {
+  text-decoration:none
+}
+
+
+@import './align.css';
+@import './background.css';
+@import './border.css';
+@import './flex.css';
+@import './line-height.css';
+@import './font.css';
+@import './height.css';
+@import './margin.css';
+@import './opactity.css';
+@import './padding.css';
+@import './public.css';
+@import './width.css';
+
+
+.noselect {
+  -webkit-touch-callout: none;  /* iOS Safari */
+  -webkit-user-select  : none;  /* Chrome/Safari/Opera */
+  -khtml-user-select   : none;  /* Konqueror */
+  -moz-user-select     : none;  /* Firefox */
+  -ms-user-select      : none;  /* Internet Explorer/Edge */
+  user-select          : none;  /* Non-prefixed version, currently
+  not supported by any browser */
+  }

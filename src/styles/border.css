@@ -1,0 +1,29 @@
+.b {border:1px solid #eee;}
+.b.dashed{border:1px dashed #000;}
+.bt {border-top: 1px solid #eee;}
+.bb {border-bottom: 1px solid #eee;}
+.bl {border-left: 1px solid #eee;}
+.br {border-right: 1px solid #eee;}
+.bb_dashed{border-bottom:1px dashed #e4e4e4}
+
+.b-black {border: 1px solid #000000;}
+.b-red {border: 1px solid #ff0036;}
+.b-war {border:1px solid #EB9E05;}
+.b-blue{border: 1px solid #1e83d3;}
+
+.br-100{border-radius: 100%;}
+.br-1{border-radius: 1px;}
+.br-2{border-radius: 2px;}
+.br-3{border-radius: 3px;}
+.br-4{border-radius: 4px;}
+.br-5{border-radius: 5px;}
+.br-6{border-radius: 6px;}
+.br-7{border-radius: 7px;}
+.br-8{border-radius: 8px;}
+.br-9{border-radius: 9px;}
+.br-10{border-radius: 10px;}
+.br-11{border-radius: 11px;}
+.br-12{border-radius: 12px;}
+.br-13{border-radius: 13px;}
+.br-14{border-radius: 14px;}
+.br-15{border-radius: 15px;}

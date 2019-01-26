@@ -38,3 +38,34 @@
 .sha-1{
   box-shadow: 0 1px 6px rgba(0,0,0,.2);
 }
+
+/* 不换行 */
+.nowrap{
+  white-space:nowrap;
+}
+
+/* 强行换行 */
+.wrap{
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
+.fl {
+  float:left
+}
+.fr {
+  float:right
+}
+
+.clearfix {
+  display:inline-table;
+  display:block;
+  zoom:1
+}
+.clearfix:after {
+  clear:both;
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden
+}
