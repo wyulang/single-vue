@@ -41,23 +41,23 @@
 }
 
 /* （默认值）：左对齐 */
-.fj-s{
+.jc-s{
   justify-content: flex-start;
 }
 /* 右对齐 */
-.fj-e{
+.jc-e{
   justify-content: flex-end;
 }
 /* 居中 */
-.fj-c{
+.jc-c{
   justify-content:center;
 }
 /* 两端对齐 */
-.fj-b{
+.jc-b{
   justify-content: space-between;
 }
 /* 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍 */
-.fj-a{
+.jc-a{
   justify-content: space-around;
 }
 

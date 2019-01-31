@@ -1,9 +1,9 @@
 .b {border:1px solid #eee;}
 .b.dashed{border:1px dashed #000;}
-.bt {border-top: 1px solid #eee;}
-.bb {border-bottom: 1px solid #eee;}
-.bl {border-left: 1px solid #eee;}
-.br {border-right: 1px solid #eee;}
+.bt {border-top: 1px solid #f2f2f2;}
+.bb {border-bottom: 1px solid #f2f2f2;}
+.bl {border-left: 1px solid #f2f2f2;}
+.br {border-right: 1px solid #f2f2f2;}
 .bb_dashed{border-bottom:1px dashed #e4e4e4}
 
 .b-black {border: 1px solid #000000;}

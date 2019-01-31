@@ -69,3 +69,24 @@
   height:0;
   visibility:hidden
 }
+
+.wh55{
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+}
+.wh60{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.wh65{
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+}
+.wh70{
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}

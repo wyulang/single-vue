@@ -17,6 +17,9 @@ button, dd, div, dl, dt, form, img, input, li, ol, p, td, th, ul {
 li {
   list-style-type:none
 }
+i,em{
+  font-style: normal;
+}
 img {
   vertical-align:top
 }

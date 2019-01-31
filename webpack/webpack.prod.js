@@ -19,7 +19,7 @@ let debConfig = {
     filename: `js/[name].${_version}.js`,
     chunkFilename: `chunk/[name].js`,
   },
-  devtool: 'source-map',
+  devtool: 'cheap-module-source-map',
   mode: 'production',
   optimization: {
     minimizer: [
@@ -69,7 +69,7 @@ let debConfig = {
       host: '.',
       prod: true
     }),
-    new CleanWebpackPlugin(['build/js/*','build/css/*'],{
+    new CleanWebpackPlugin(['build/js/*','build/css/*','build/*.html'],{
       root: path.resolve(__dirname, '..'),
       exclude:['vendor/*.js'],
       dry: false // 启用删除文件

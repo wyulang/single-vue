@@ -94,7 +94,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 5000,   // 小于8k的图片自动转成base64格式，并且不会存在实体图片
-          name: 'assets/[name].[hash].[ext]',
+          name: 'assets/[name].[hash:4].[ext]',
         }
       },
       ]
