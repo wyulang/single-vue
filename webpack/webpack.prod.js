@@ -19,11 +19,6 @@ let debConfig = {
     filename: `js/[name].${_version}.js`,
     chunkFilename: `js/[name].js`,
   },
-  optimization: {
-    splitChunks: {
-      chunks: 'all'
-    }
-  },
   devtool: 'cheap-module-source-map',
   mode: 'production',
   optimization: {
@@ -34,7 +29,10 @@ let debConfig = {
         sourceMap: true // set to true if you want JS source maps
       }),
       new OptimizeCSSAssetsPlugin({})
-    ]
+    ],
+    splitChunks: {
+      chunks: 'all'
+    }
   },
   plugins: [
     new MiniCssExtractPlugin({

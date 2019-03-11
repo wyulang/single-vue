@@ -48,7 +48,7 @@ const routes=[
       {
         path: '/activity/skill',
         name: "skill",
-        component: program,
+        component: r => require.ensure([], () => r(require('./pages/wx/index')), 'wx'),
         meta: { title: "秒杀管理" },
       },
       {

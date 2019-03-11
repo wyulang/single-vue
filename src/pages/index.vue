@@ -1,5 +1,5 @@
 <template>
   <div>
-    <div class="red">6666666666666666</div>
+    <router-view></router-view>
   </div>
 </template>
