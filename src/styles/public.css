@@ -1,7 +1,7 @@
 .hand{cursor: pointer;}
 .inline-block {display: inline-block;}
-.block {display: block;}
-.none {display: none;}
+.show {display: block;}
+.hide {display: none;}
 
 .line-1 {
   white-space: nowrap;

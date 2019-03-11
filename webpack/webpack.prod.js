@@ -17,7 +17,12 @@ let debConfig = {
     path: config.config.outPath,
     publicPath: './',
     filename: `js/[name].${_version}.js`,
-    chunkFilename: `chunk/[name].js`,
+    chunkFilename: `js/[name].js`,
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
   },
   devtool: 'cheap-module-source-map',
   mode: 'production',
@@ -69,9 +74,9 @@ let debConfig = {
       host: '.',
       prod: true
     }),
-    new CleanWebpackPlugin(['build/js/*','build/css/*','build/*.html'],{
+    new CleanWebpackPlugin(['build/js/*', 'build/css/*', 'build/*.html'], {
       root: path.resolve(__dirname, '..'),
-      exclude:['vendor/*.js'],
+      exclude: ['vendor/*.js'],
       dry: false // 启用删除文件
     }),
   ]

@@ -30,7 +30,7 @@ const routes=[
   {
     path: '/order',
     name: "order",
-    component: order,
+    component: r => require.ensure([], () => r(require('./pages/order/index')), 'order'),
     meta: { title: "订单管理" },
   },
   {

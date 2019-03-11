@@ -47,9 +47,7 @@ export default {
   },
   methods: {
     getIcon(name) {
-      return require(`./assets/${name}${
-        this.active == name ? "-select" : "-no"
-      }.png`);
+      return require(`./assets/${name}${this.active == name ? "-select" : "-no"}.png`);
     },
     handleOpen(key, keyPath) {
       this.active = keyPath[0];
@@ -163,8 +161,8 @@ body > .el-container {
     padding-bottom: 20px;
   }
 }
-.tr-blank{
-  td{
+.tr-blank {
+  td {
     height: 10px;
   }
 }
@@ -176,18 +174,18 @@ body > .el-container {
     border-bottom: 1px solid #eee;
   }
 }
-.tr-check{
-  td{
-     padding: 10px;
-     background-color: #ecf6ff;
-     border-left: #ecf6ff 1px solid;
-     border-right: #ecf6ff 1px solid;
+.tr-check {
+  td {
+    padding: 10px;
+    background-color: #ecf6ff;
+    border-left: #ecf6ff 1px solid;
+    border-right: #ecf6ff 1px solid;
   }
 }
-.tr-body{
-  td{
-     padding: 10px;
-     border-bottom: 1px #eee solid;
+.tr-body {
+  td {
+    padding: 10px;
+    border-bottom: 1px #eee solid;
   }
 }
 .list-body {

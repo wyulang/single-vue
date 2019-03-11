@@ -100,7 +100,7 @@
             <td class="br">操作</td>
           </tr>
         </tbody>
-       
+
       </table>
     </section>
   </div>
@@ -120,7 +120,7 @@ export default {
   methods: {
     ...mapActions(["getWxList"]),
     initData() {
-      this.list=[];
+      this.list = [];
       this.getWxList(this.serch).then(res => {
         if (res.code == 100) {
           this.list = res.object;
