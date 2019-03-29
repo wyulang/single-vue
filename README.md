@@ -26,3 +26,5 @@ Android SDK Manager
 
 •用notepad打开C:\WINDOWS\system32\drivers\etc中的hosts文件
 •在最后一行添加74.125.237.1 dl-ssl.google.com
+
+http://mirrors.neusoft.edu.cn/android/repository/
