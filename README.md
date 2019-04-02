@@ -28,3 +28,6 @@ Android SDK Manager
 •在最后一行添加74.125.237.1 dl-ssl.google.com
 
 http://mirrors.neusoft.edu.cn/android/repository/
+
+
+http://www.cnblogs.com/goldlong/p/8109283.html 安装教程
