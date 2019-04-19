@@ -30,4 +30,4 @@ Android SDK Manager
 http://mirrors.neusoft.edu.cn/android/repository/
 
 
-http://www.cnblogs.com/goldlong/p/8109283.html 安装教程
+http://www.cnblogs.com/goldlong/p/8109283.html 安装教程 李 艳      茹
