@@ -30,7 +30,7 @@ Android SDK Manager
 http://mirrors.neusoft.edu.cn/android/repository/
 
 
-http://www.cnblogs.com/goldlong/p/8109283.html 安装教程 李 艳 茹
+http://www.cnblogs.com/goldlong/p/8109283.html 安装教程 李 艳 茹  q340613539
 
 puppeteer是一个基于js的强大API，它可以操作Chrome浏览器进行网页的获取，并且能进行无头浏览模式，强大到没朋友。
 
